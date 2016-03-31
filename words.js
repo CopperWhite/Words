@@ -29,10 +29,10 @@ $(function(){
 			return;
 		}
 		$.ajax ({
-			url: "https://dictionary.yandex.net/api/v1/dicservice.json/lookup",
+			url: "",
 			dataType:"jsonp",
 			data: {
-				key:"dict.1.1.20160323T054829Z.7b0911812b321fc8.778ab3624988f7e7b69e55dfe04038d1adefce30",
+				key:"",
 				text: word,
 				lang: "ru-ru"
 			}
